@@ -1,7 +1,10 @@
+# Imports
+from typing import Optional
 from fastapi import FastAPI
 
 app = FastAPI()
 
+
 @app.get("/")
-def index():
-    return {'key': 'value'}
+def read_root():
+    return {"Hello": "World"}
