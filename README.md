@@ -4,7 +4,7 @@ Learning Path
 
 Each section ends with a variation of an exercise that involves building a Todo application. You can start a Github repo and use git to express the evolution of the exercises.
 
-Back-end:
+Back-end - Initiate the project
 
 1- Install vitual environment
     -> python3 -m pip install --user virtualenv
@@ -33,4 +33,5 @@ Back-end:
 8- Open browser & you will see the JSON response
     http://127.0.0.1:8000/
 
-9- 
+9- Test the routes of the app:
+    http://127.0.0.1:8000/docs
